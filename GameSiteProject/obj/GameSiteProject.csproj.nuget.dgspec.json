@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj": {}
+    "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj": {}
   },
   "projects": {
-    "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj": {
+    "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj",
+        "projectUniqueName": "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj",
         "projectName": "GameSiteProject",
-        "projectPath": "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj",
+        "projectPath": "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\GameSiteProject\\obj\\",
+        "outputPath": "D:\\ПОСИДЕЛКИ У КОМПА\\GameSiteProject\\GameSiteProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
