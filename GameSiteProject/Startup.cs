@@ -16,6 +16,7 @@ namespace GameSiteProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -27,6 +28,7 @@ namespace GameSiteProject
             }
 
             app.UseMvcWithDefaultRoute();
+            app.UseStaticFiles();
 
         }
     }

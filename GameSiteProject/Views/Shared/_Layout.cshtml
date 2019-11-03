@@ -1,16 +1,30 @@
 ﻿<!DOCTYPE html>
 
 <html>
-    <head>
-        <title>@ViewBag.Title - My Game WebSite</title>
-    </head>
-    <body>
-        <header>
-            <div>
-                <p><a asp-controller="Home" asp-action="Index">Home page</a></p>
+<head>
+    <link asp-href-include="~/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link asp-href-include="~/css/main.css" rel="stylesheet" type="text/css" />
+    <title>@ViewBag.Title - My Game WebSite</title>
+</head>
+    <body class="container">
+        <header class="container">
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <img src="#" alt="Website logo" />
+                </div>
+                <div class="col-lg-4">
+                    <p><a asp-controller="Home" asp-action="Index">Home page</a></p>
+                </div>
             </div>
         </header>
-        <div>@RenderBody()</div>
-        <footer>Footer</footer>
+        <section>
+        @RenderBody()
+        </section>
+        <footer class="container">
+            <div class="row">
+                Footer
+            </div>
+        </footer>
     </body>
 </html>
