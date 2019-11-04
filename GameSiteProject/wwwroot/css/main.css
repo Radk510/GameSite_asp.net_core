@@ -1,11 +1,11 @@
-﻿* {
-    margin: 0;
-    padding: 0
+﻿@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+
+* {
+    cursor: default;
 }
 
 body {
-    position: relative;
-    min-height: 100vh;
+    font-family: McLaren;    
 }
 
 
@@ -14,18 +14,108 @@ body {
 header {
     min-height: 10vh;
     background-color: red;
+    
 }
 
 /*RENDER BODY*/
+section {
+    
+}
+
+/*Game Rock Paper Scissors*/
+
+.gameHeader {
+    padding: 30px;
+    background-color: white;
+}
+
+.gameHeader h1, p {
+    color: #1f1e1d;
+}
+
+
+.paperRockScissors {
+    /*position: relative;*/
+    min-height: 90vh;
+    background-color: #1f1e1d;
+    padding-top: 2.0rem;
+}
+
+.prsContainer {
+    margin: 20px;
+}
+
+.gameScore {
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 40%;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: McLaren, sans-serif;
+    position: relative;
+    padding: 40px;
+}
+
+.playerIdent {
+    background-color: #e63558;
+    padding: 5px;
+}
+
+#userLabel {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+#compLabel {
+    position: absolute;
+    top: 30px;
+    right: -70px;
+}
+
+.score {
+    font-size: 90px;
+}
+
+.gameResult {
+    margin-top: 20px;
+}
+
+.gameResult p {
+    font-size: 2.0rem;
+    color: white;
+    text-align: center;
+}
+
+.gameChoice {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 10px;
+
+}
+
+.whatToDo p {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
 
 
 
 
 /*FOOTER*/
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    
     background-color: red;
 }

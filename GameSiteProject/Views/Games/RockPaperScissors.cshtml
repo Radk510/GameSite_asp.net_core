@@ -1,1 +1,37 @@
-﻿<h1>This is the game</h1>
+﻿<div class="gameHeader text-center">
+    <h1>Rock, Paper and Scissors</h1>
+    <p>Legendary game from Rodion Kl</p>
+</div>
+<div class="paperRockScissors">
+    @*GAME HEADER*@
+    <div class="container">
+        @*GAME SCORE*@
+        <div class="gameScore">
+            <div id="userLabel" class="playerIdent">User</div>
+            <div id="compLabel" class="playerIdent">Computer</div>
+            <span class="score" id="userScore">0</span>
+            <span class="score">:</span>
+            <span class="score" id="computerScore">0</span>
+        </div>
+        @*GAME RESULT*@
+        <div class="gameResult">
+            <p>Waiting for a start!</p>
+        </div>
+        @*GAME CHOICE WHAT TO USE*@
+        <div class="gameChoice">
+            <div class="choice col-3" id="paper">
+                <img src="~/img/paper.png" alt="Paper" class="img-fluid" />
+            </div>
+            <div class="choice col-3" id="rock">
+                <img src="~/img/rock.png"  alt="Rock" class="img-fluid" />
+            </div>
+            <div class="choice col-3" id="scissors">
+                <img src="~/img/scissors.png" alt="Scissors" class="img-fluid" />
+            </div>
+        </div>
+        @*WHAT TO DO MESSAGE*@
+        <div class="whatToDo" >
+            <p>Chose what to use and click it!</p>
+        </div>
+    </div>
+</div>
